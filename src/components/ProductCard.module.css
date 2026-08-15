@@ -1,0 +1,40 @@
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0f766e;
+  margin: 8px 0;
+}
+
+.inStock {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.outOfStock {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 10px;
+  background: #f59e0b;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
